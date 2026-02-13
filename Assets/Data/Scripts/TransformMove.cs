@@ -9,7 +9,6 @@ public class TransformMove : MonoBehaviour
 
     [Header("Jump")]
     [SerializeField] private float forseJump = 2.5f;
-    [SerializeField] private float distansJump = 2.5f;
     private const float Gravitation = 9.81f;
     private float velosityY;
     private float positionY;

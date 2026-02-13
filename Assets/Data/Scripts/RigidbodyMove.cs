@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class RigidbodyMove : MonoBehaviour
 {
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D rigbody2D;
 
     [Header("Horizontal Transform")]
     [SerializeField] private float speedGo = 3;
@@ -23,7 +23,7 @@ public class RigidbodyMove : MonoBehaviour
 
     void Awake()
     {
-        rigidbody2D = this.GetComponent<Rigidbody2D>();
+        rigbody2D = this.GetComponent<Rigidbody2D>();
         groundLayer = LayerMask.GetMask("Ground");
     }
 
@@ -40,14 +40,14 @@ public class RigidbodyMove : MonoBehaviour
     {
         //rigidbody2D.linearVelocity = 
         //    new Vector2(directionX * speed, rigidbody2D.linearVelocityY); - длинный вариант
-      
-        rigidbody2D.linearVelocityX = directionX * speedGo;
+
+        rigbody2D.linearVelocityX = directionX * speedGo;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
 
         if (jumpPressed && isGrounded)
         {
-            rigidbody2D.AddForce(Vector2.up * speedJump, ForceMode2D.Impulse);
+            rigbody2D.AddForce(Vector2.up * speedJump, ForceMode2D.Impulse);
             //rigidbody2D.linearVelocity = new Vector2(rigidbody2D.linearVelocityX, speedJump);
         }
 
