@@ -3,7 +3,8 @@ using UnityEngine;
 public class TransformMove : MonoBehaviour
 {
     [Header("Horizontal Transform")]
-    [SerializeField] private float speedGo = 6;
+    [SerializeField] private float speedGo = 3;
+    [SerializeField] private float speedRun = 6;
     private const string Horizontal = nameof(Horizontal);
     private float directionX;
 
@@ -42,7 +43,10 @@ public class TransformMove : MonoBehaviour
     private void MoveTransform()
     {
         directionX = Input.GetAxis(Horizontal);
-        transform.position = new Vector3(transform.position.x + directionX * speedGo * Time.deltaTime, transform.position.y, transform.position.z);
+        if (Input.GetKey(KeyCode.LeftShift))
+            transform.position = new Vector3(transform.position.x + directionX * speedRun * Time.deltaTime, transform.position.y, transform.position.z);
+        else
+            transform.position = new Vector3(transform.position.x + directionX * speedGo * Time.deltaTime, transform.position.y, transform.position.z);
 
     }
 
@@ -94,4 +98,12 @@ public class TransformMove : MonoBehaviour
             isGrounded = false;
         }
     }
+    public float GetDirectionX()
+    {
+        return directionX;
+    }
+    public bool GetIsGround()
+    {
+        return isGrounded;
+    }    
 }
