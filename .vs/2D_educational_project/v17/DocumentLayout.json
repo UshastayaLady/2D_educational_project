@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\viewcounteclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\viewcounteclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\onclickplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\onclickplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewCounteClick.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ViewCounteClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ViewCounteClick.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ViewCounteClick.cs",
+              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ViewCounteClick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T19:13:48.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OnClickPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:46:25.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeleportPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\TeleportPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\TeleportPlayer.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\TeleportPlayer.cs",
+              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\TeleportPlayer.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwBcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:32:04.968Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
