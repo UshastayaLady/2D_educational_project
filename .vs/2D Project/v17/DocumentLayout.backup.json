@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\Top\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\nextscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\nextscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\bolt 2d jellyfarm ve2\\scripts\\onclickplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\bolt 2d jellyfarm ve2\\scripts\\onclickplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExitGame.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ExitGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ExitGame.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ExitGame.cs",
-              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\ExitGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "Counter.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\Counter.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\Counter.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\Counter.cs",
+              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\Counter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T13:06:21.833Z",
+              "WhenOpened": "2026-03-03T12:00:55.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NextScene.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\NextScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\NextScene.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\NextScene.cs",
-              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\NextScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "OnClickPlayer.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "RelativeToolTip": "Assets\\Data\\Bolt 2D JellyFarm VE2\\Scripts\\OnClickPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T12:25:47.749Z",
+              "WhenOpened": "2026-03-03T09:23:09.609Z",
               "EditorCaption": ""
             }
           ]

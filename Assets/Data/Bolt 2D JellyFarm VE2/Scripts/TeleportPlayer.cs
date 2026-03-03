@@ -46,4 +46,13 @@ public class TeleportPlayer : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
+    public float GetSpeed()
+    {
+        return speed;
+    }
+
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
 }

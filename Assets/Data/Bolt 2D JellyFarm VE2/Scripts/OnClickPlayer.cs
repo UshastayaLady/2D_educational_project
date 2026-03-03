@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class OnClickPlayer : MonoBehaviour
 {
+    [SerializeField] private Counter counter;
     private KeyCode click = KeyCode.Mouse0;
 
     void Update()
@@ -16,7 +17,7 @@ public class OnClickPlayer : MonoBehaviour
             {
                 if(hit.transform.TryGetComponent<TeleportPlayer>(out TeleportPlayer teleportPlayer))
                 {
-                    Debug.Log("Попал!");
+                    counter.AddCount();
                 }
             }
         }
