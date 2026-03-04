@@ -1,25 +1,29 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(InitPool))]
 [RequireComponent(typeof (Rigidbody2D))]
 public class Bulet : MonoBehaviour
 {
-
     private Rigidbody2D rigidbody;
     [SerializeField] private float speed;
     [SerializeField] private float timeLive;
     [SerializeField] private float damage;
+    private PoolObject poolObject;
+    private InitPool initPool;
 
-    
-    void Start()
+    void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.gravityScale = 0;        
+        rigidbody.gravityScale = 0;
+        initPool = GetComponent<InitPool>();
     }
 
     private void OnEnable()
     {
         StartCoroutine(IKilled());
+        if (initPool != null )
+            poolObject = initPool.GetPoolObject();
     }
 
 
@@ -44,6 +48,6 @@ public class Bulet : MonoBehaviour
     private IEnumerator IKilled()
     {
         yield return new WaitForSeconds(timeLive);
-        gameObject.SetActive(false);
+        poolObject.PulObgectInPool(this.gameObject.GetComponent<SpriteRenderer>());
     }
 }
