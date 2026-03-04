@@ -1,17 +1,19 @@
 using UnityEngine;
 
-public class InitPool : MonoBehaviour
+[RequireComponent(typeof(FindPool))]
+public abstract class InitPool : MonoBehaviour
 {
-    private PoolObject poolObject;
+    protected FindPool findPool;
+    protected PoolObject poolObject;
 
-    public void SetPoolObject(PoolObject poolObject)
+    protected void Awake()
     {
-        this.poolObject = poolObject;
+        findPool = GetComponent<FindPool>();
     }
 
-    public PoolObject GetPoolObject()
+    protected void OnEnable()
     {
-        return poolObject;
+        if (findPool != null)
+            poolObject = findPool.GetPoolObject();
     }
-
 }

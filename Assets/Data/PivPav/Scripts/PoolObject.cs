@@ -30,7 +30,7 @@ public class PoolObject : MonoBehaviour
     private void AddPoolObject(SpriteRenderer spriteRenderer)
     {
         spriteRenderer.transform.SetParent(container);
-        spriteRenderer.GetComponent<InitPool>().SetPoolObject(this);
+        spriteRenderer.GetComponent<FindPool>().SetPoolObject(this);
         spriteRenderer.gameObject.SetActive(false);
         poolObject.Enqueue(spriteRenderer);
     }

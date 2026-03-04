@@ -8,13 +8,11 @@ public class AttackPlaier : MonoBehaviour
     private SpriteRenderer bullet;
     [SerializeField] private Transform transformFire;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         poolObject = GetComponent<PoolObject>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Atttak();
