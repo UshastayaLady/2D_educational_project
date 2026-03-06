@@ -4,16 +4,15 @@ using UnityEngine;
 [RequireComponent(typeof (Rigidbody2D))]
 public class Bullet : InitPool
 {
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D newRigidbody;
     [SerializeField] private float speed;
     [SerializeField] private float timeLive;
     [SerializeField] private float damage;
 
-    void Awake()
+    void Start()
     {
-        base.Awake();
-        rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.gravityScale = 0;
+        newRigidbody = GetComponent<Rigidbody2D>();
+        newRigidbody.gravityScale = 0;
     }
 
     private void OnEnable()

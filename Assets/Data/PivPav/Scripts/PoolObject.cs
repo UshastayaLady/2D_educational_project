@@ -8,7 +8,7 @@ public class PoolObject : MonoBehaviour
     private Queue <SpriteRenderer>  poolObject;
     [SerializeField] private int cauntStart;
 
-    private void Start()
+    private void Awake()
     {
         poolObject = new Queue<SpriteRenderer>();
         StartInitializationPoolObject();
@@ -30,7 +30,10 @@ public class PoolObject : MonoBehaviour
     private void AddPoolObject(SpriteRenderer spriteRenderer)
     {
         spriteRenderer.transform.SetParent(container);
-        spriteRenderer.GetComponent<FindPool>().SetPoolObject(this);
+        if (spriteRenderer.TryGetComponent<FindPool>(out FindPool find))
+        {
+            find.SetPoolObject(this);
+        }
         spriteRenderer.gameObject.SetActive(false);
         poolObject.Enqueue(spriteRenderer);
     }
