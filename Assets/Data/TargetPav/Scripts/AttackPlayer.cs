@@ -1,12 +1,16 @@
+using System.Collections;
 using UnityEngine;
 
 public class AttackPlayer : MonoBehaviour, ITakeDamage
 {
     [SerializeField] private float distanse;
+    [SerializeField] float pauseAttack;
     [SerializeField] float damage;
     private Ray2D ray2D;
     private RaycastHit2D raycastHit2D;
-    
+    private bool canAttack = true;
+
+
 
     private void Update()
     {
@@ -15,20 +19,32 @@ public class AttackPlayer : MonoBehaviour, ITakeDamage
 
     private void RayDrow()
     {
-        Vector2 mouse = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 player = new Vector2(transform.position.x, transform.position.y);
-        ray2D = new Ray2D(player, mouse);
+        Vector2 direction = (mouse - player).normalized;
+        ray2D = new Ray2D(player, direction);
 
-        Debug.DrawRay(player, mouse * distanse);
+        Debug.DrawRay(player, direction * distanse);
     }
     public void Attack()
     {
-        raycastHit2D = Physics2D.Raycast(ray2D.origin, ray2D.direction, distanse);
-
-        if (raycastHit2D.collider != null && raycastHit2D.collider.gameObject.TryGetComponent(out IGiveDamage target))
+        if (canAttack)
         {
-            TakeDamage(target);
-        }
+            canAttack = false;
+            raycastHit2D = Physics2D.Raycast(ray2D.origin, ray2D.direction, distanse);
+
+            if (raycastHit2D.collider != null && raycastHit2D.collider.gameObject.TryGetComponent(out Target target))
+            {
+                Debug.Log(raycastHit2D.collider.gameObject.name);
+                TakeDamage(target);
+            }
+            else if (raycastHit2D.collider != null)
+            {
+                Debug.Log(raycastHit2D.collider.gameObject.name);
+            }
+            
+            StartCoroutine(CanAttack());
+        }        
     }
 
     public void TakeDamage(IGiveDamage giveDamage)
@@ -36,5 +52,9 @@ public class AttackPlayer : MonoBehaviour, ITakeDamage
         giveDamage.GiveDamage(damage);
     }
 
-
+    private IEnumerator CanAttack()
+    {
+        yield return new WaitForSeconds(pauseAttack); 
+        canAttack = true;
+    }
 }
