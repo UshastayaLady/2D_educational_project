@@ -219,8 +219,8 @@ GameObject:
   - component: {fileID: 749081182}
   - component: {fileID: 749081185}
   - component: {fileID: 749081186}
-  - component: {fileID: 749081188}
   - component: {fileID: 749081187}
+  - component: {fileID: 749081188}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   container: {fileID: 1766582723}
-  obrazec: {fileID: 3693704085574527857, guid: 0c3f07bf5f2700542a63b833187e96d9, type: 3}
-  cauntStart: 5
+  sample: {fileID: 573772524799417697, guid: 0c3f07bf5f2700542a63b833187e96d9, type: 3}
+  cauntStart: 0
 --- !u!1 &796329599
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &796329600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,8 +412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1edec26f28d432844a9343e15486a7f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 3.58
   centr: {fileID: 749081184}
+  timeSpawn: 0.5
 --- !u!114 &796329601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,8 +428,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   container: {fileID: 796329602}
-  obrazec: {fileID: 374610909342148918, guid: 073836eb98d5f0148835088d8c09209e, type: 3}
-  cauntStart: 0
+  sample: {fileID: -919428394013978278, guid: 073836eb98d5f0148835088d8c09209e, type: 3}
+  cauntStart: 5
 --- !u!4 &796329602
 Transform:
   m_ObjectHideFlags: 0

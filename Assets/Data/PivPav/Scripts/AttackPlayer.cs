@@ -5,7 +5,7 @@ public class AttackPlaier : MonoBehaviour
 {
     [SerializeField] private KeyCode keyCodeFire = KeyCode.Mouse0;
     private PoolObject poolObject;
-    private SpriteRenderer bullet;
+    private FindPool bullet;
     [SerializeField] private Transform transformFire;
 
     void Awake()

@@ -4,13 +4,13 @@ using UnityEngine;
 public class PoolObject : MonoBehaviour
 {
     [SerializeField] private Transform container;
-    [SerializeField] private SpriteRenderer obrazec;
-    private Queue <SpriteRenderer>  poolObject;
+    [SerializeField] private FindPool sample;
+    private Queue <FindPool>  poolObject;
     [SerializeField] private int cauntStart;
 
     private void Awake()
     {
-        poolObject = new Queue<SpriteRenderer>();
+        poolObject = new Queue<FindPool>();
         StartInitializationPoolObject();
     }
 
@@ -24,36 +24,36 @@ public class PoolObject : MonoBehaviour
 
     private void AddPoolObject()
     {
-        AddPoolObject(Instantiate(obrazec, new Vector2(0f, 0f), Quaternion.identity));
+        //AddPoolObject(Instantiate(sample, new Vector2(0f, 0f), Quaternion.identity));
+        FindPool newObject = Instantiate(sample);
+        newObject.PutInPool += PutObgectInPool;
+        AddPoolObject(newObject);
     }
 
-    private void AddPoolObject(SpriteRenderer spriteRenderer)
+    private void AddPoolObject(FindPool findPool)
     {
-        spriteRenderer.transform.SetParent(container);
-        if (spriteRenderer.TryGetComponent<FindPool>(out FindPool find))
-        {
-            find.SetPoolObject(this);
-        }
-        spriteRenderer.gameObject.SetActive(false);
-        poolObject.Enqueue(spriteRenderer);
+        findPool.transform.SetParent(container);
+        findPool.gameObject.SetActive(false);
+        poolObject.Enqueue(findPool);
     }
 
-    public SpriteRenderer GetObgectInPool()
+    public FindPool GetObgectInPool()
     {
         if (poolObject.Count == 0)
             AddPoolObject();
         return poolObject.Dequeue();
     }
 
-    public SpriteRenderer GetObgectInPool(Vector2 position, Quaternion quaternion)
-    {         
-        SpriteRenderer forWorkItem = GetObgectInPool();
+    public FindPool GetObgectInPool(Vector2 position, Quaternion quaternion)
+    {
+        FindPool forWorkItem = GetObgectInPool();
         forWorkItem.transform.position = position;
         forWorkItem.transform.rotation = quaternion;
         return forWorkItem;
     }
-    public void PulObgectInPool(SpriteRenderer spriteRenderer)
+    public void PutObgectInPool(FindPool findPool)
     {        
-        AddPoolObject(spriteRenderer);
+        AddPoolObject(findPool);
     }
+
 }

@@ -1,17 +1,14 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class FindPool : MonoBehaviour
 {
-    private PoolObject poolObject;
 
-    public void SetPoolObject(PoolObject poolObject)
+    public event Action<FindPool> PutInPool;      
+
+    public void EventGo()
     {
-        this.poolObject = poolObject;
+        PutInPool?.Invoke(this);
     }
-
-    public PoolObject GetPoolObject()
-    {
-        return poolObject;
-    }
-
 }

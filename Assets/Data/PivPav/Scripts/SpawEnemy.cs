@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 
 [RequireComponent (typeof (PoolObject))] 
@@ -6,19 +7,16 @@ public class SpawEnemy : MonoBehaviour
 {
     [SerializeField] private float radius;
     [SerializeField] private Transform centr;
+    [SerializeField] private float timeSpawn;
     private Vector2 SpawnPosition;
-    private SpriteRenderer enemyObject;
+    private FindPool enemyObject;
     private PoolObject poolObject;  
    
 
     void Start()
     {
         poolObject = GetComponent<PoolObject>();
-    }
-
-    void Update()
-    {
-        Spawn();
+        StartCoroutine(SpawmCoroutine());
     }
 
     private void Spawn()
@@ -32,5 +30,14 @@ public class SpawEnemy : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, radius);
+    }
+
+    private IEnumerator SpawmCoroutine()
+    {
+        while (enabled)
+        {
+            Spawn();
+            yield return new WaitForSeconds(timeSpawn);
+        }       
     }
 }

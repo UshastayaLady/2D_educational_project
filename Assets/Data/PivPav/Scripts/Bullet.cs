@@ -1,30 +1,47 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(FindPool))]
+[RequireComponent(typeof(CircleCollider2D))]
 [RequireComponent(typeof (Rigidbody2D))]
-public class Bullet : InitPool
+
+public class Bullet : MonoBehaviour, ITakeDamage
 {
     private Rigidbody2D newRigidbody;
     [SerializeField] private float speed;
-    [SerializeField] private float timeLive;
     [SerializeField] private float damage;
+    [SerializeField] private float timeLive;
+    private FindPool findPool;
+    private Coroutine lifeCoroutine;
 
-    void Start()
+    void Awake()
     {
+        findPool = GetComponent<FindPool>();
         newRigidbody = GetComponent<Rigidbody2D>();
+    }
+    void Start()
+    {        
         newRigidbody.gravityScale = 0;
     }
 
     private void OnEnable()
     {
-        base.OnEnable();
-        StartCoroutine(IKilled());       
+        if (lifeCoroutine != null)
+            StopCoroutine(lifeCoroutine);
+        lifeCoroutine = StartCoroutine(IKilled());
     }
-
+    private void OnDisable()
+    {
+        if (lifeCoroutine != null)
+        {
+            StopCoroutine(lifeCoroutine);
+            lifeCoroutine = null;
+        }
+    }
 
     void Update()
     {
-        Move();
+        Move();        
     }
 
     private void Move()
@@ -34,15 +51,21 @@ public class Bullet : InitPool
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //if (collision != null && collision.gameObject.TryGetComponent<ITakeDamage>) 
-        //{ 
-
-        //}
+        if (collision.gameObject.TryGetComponent(out IGiveDamage giveDamage))
+        {
+            TakeDamage(giveDamage);
+            findPool.EventGo();
+        }
     }
-
     private IEnumerator IKilled()
     {
         yield return new WaitForSeconds(timeLive);
-        poolObject.PulObgectInPool(this.gameObject.GetComponent<SpriteRenderer>());
+        findPool.EventGo();
     }
+
+    public void TakeDamage(IGiveDamage giveDamage)
+    {
+        giveDamage.GiveDamage(damage);
+        findPool.EventGo();
+    }    
 }
