@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(FindPool))]
-public class Target : MonoBehaviour, IGiveDamage
+public class Target : MonoBehaviour, ITakeDamage
 {
     [SerializeField] private float hp;
     private float maxHp;
@@ -22,13 +22,10 @@ public class Target : MonoBehaviour, IGiveDamage
         hp = maxHp;
     }
 
-    public void GiveDamage(float damage)
+    public void TakeDamage(float damage)
     {
-        if (hp > 0)
-        {
-            hp -= damage;
-        }
-        else
+        hp -= damage;
+        if (hp <= 0)
         {
             OnTargetDestroyed?.Invoke(this);
             findPool.EventGo();

@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(FindPool))]
 [RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent(typeof(FindPool))]
-public class Enemy : MonoBehaviour, IGiveDamage
+public class Enemy : MonoBehaviour, ITakeDamage
 {
     [SerializeField] private float hp;
     private FindPool findPool;
@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour, IGiveDamage
         findPool = GetComponent<FindPool>();
     }
 
-    public void GiveDamage(float damage)
+    public void TakeDamage(float damage)
     {
         hp -= damage;
         if (hp <= 0)

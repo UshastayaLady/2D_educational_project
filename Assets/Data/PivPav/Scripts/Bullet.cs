@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CircleCollider2D))]
 [RequireComponent(typeof (Rigidbody2D))]
 
-public class Bullet : MonoBehaviour, ITakeDamage
+public class Bullet : MonoBehaviour, IGiveDamage
 {
     private Rigidbody2D newRigidbody;
     [SerializeField] private float speed;
@@ -51,9 +51,9 @@ public class Bullet : MonoBehaviour, ITakeDamage
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out IGiveDamage giveDamage))
+        if (collision.gameObject.TryGetComponent(out ITakeDamage takeDamage))
         {
-            TakeDamage(giveDamage);
+            GiveDamage(takeDamage);
             findPool.EventGo();
         }
     }
@@ -63,9 +63,9 @@ public class Bullet : MonoBehaviour, ITakeDamage
         findPool.EventGo();
     }
 
-    public void TakeDamage(IGiveDamage giveDamage)
+    public void GiveDamage(ITakeDamage takeDamage)
     {
-        giveDamage.GiveDamage(damage);
+        takeDamage.TakeDamage(damage);
         findPool.EventGo();
     }    
 }

@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "F:\\Top\\2D Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\pivpav\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\pivpav\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\targetpav\\scripts\\attackplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\attackplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\targetpav\\scripts\\igivedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\igivedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\targetpav\\scripts\\itakedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\itakedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\targetpav\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\pivpav\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\pivpav\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +38,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ITakeDamage.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\ITakeDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\ITakeDamage.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\ITakeDamage.cs",
+              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\ITakeDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:16:49.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGiveDamage.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\IGiveDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\IGiveDamage.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\IGiveDamage.cs",
+              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\IGiveDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:16:48.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Target.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\Target.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\Target.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\Target.cs",
+              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\Target.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:15:55.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttackPlayer.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
+              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:47:06.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ReadXmlDialogue.cs",
               "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
               "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
               "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwDgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T10:56:44.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\PivPav\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\PivPav\\Scripts\\Enemy.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\PivPav\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Data\\PivPav\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:27:54.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\PivPav\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\PivPav\\Scripts\\Bullet.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\PivPav\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Data\\PivPav\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:27:13.324Z",
               "EditorCaption": ""
             }
           ]
