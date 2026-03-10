@@ -6,7 +6,7 @@ public class PlayerHorizantal : MonoBehaviour
 {
     [SerializeField] private const string Horizantal = nameof (Horizontal);
     [SerializeField] private float speed;
-    [SerializeField] private float directionX;
+    private float directionX;
 
     private void Update()
     {

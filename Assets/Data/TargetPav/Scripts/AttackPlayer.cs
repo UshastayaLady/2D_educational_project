@@ -10,8 +10,6 @@ public class AttackPlayer : MonoBehaviour, ITakeDamage
     private RaycastHit2D raycastHit2D;
     private bool canAttack = true;
 
-
-
     private void Update()
     {
         RayDrow();
@@ -19,29 +17,31 @@ public class AttackPlayer : MonoBehaviour, ITakeDamage
 
     private void RayDrow()
     {
-        Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 player = new Vector2(transform.position.x, transform.position.y);
-        Vector2 direction = (mouse - player).normalized;
-        ray2D = new Ray2D(player, direction);
+        ray2D = new Ray2D(player, Vector2.up);
 
-        Debug.DrawRay(player, direction * distanse);
+        Debug.DrawRay(player, Vector2.up * distanse);
     }
     public void Attack()
     {
         if (canAttack)
         {
+            RayDrow();
+            Debug.Log("Atack");
             canAttack = false;
             raycastHit2D = Physics2D.Raycast(ray2D.origin, ray2D.direction, distanse);
 
-            if (raycastHit2D.collider != null && raycastHit2D.collider.gameObject.TryGetComponent(out Target target))
+            if (raycastHit2D.collider != null)
             {
-                Debug.Log(raycastHit2D.collider.gameObject.name);
-                TakeDamage(target);
+                Debug.Log("Popal");
+                if (raycastHit2D.collider.gameObject.TryGetComponent(out IGiveDamage target))
+                {
+                    Debug.Log("Popal Target");
+                    Debug.Log(raycastHit2D.collider.gameObject.name);
+                    TakeDamage(target);
+                }
             }
-            else if (raycastHit2D.collider != null)
-            {
-                Debug.Log(raycastHit2D.collider.gameObject.name);
-            }
+            
             
             StartCoroutine(CanAttack());
         }        
