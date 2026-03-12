@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 
 public class InstantiateDialogue : MonoBehaviour
@@ -12,32 +11,26 @@ public class InstantiateDialogue : MonoBehaviour
 
     public event Action<string> NpsText;
     public event Action<string, int> Answer;
-    public event Action finish;
-    public event Action finishNextDialogue;
+    public event Action<int> NextDialogue;
+    public event Action Finish;    
 
     [SerializeField] private TextAsset ta;
     private int currentNode = 0;
 
     #endregion
-
-    #region 
-    void Start()
-    {
-        xmlDialogue = new ReadXmlDialogue();
-        xmlDialogue = null;
-        
-    }
+    
     private void OnEnable()
     {
         AnswerClick.answerClick += OnAnswerClicked;
-    }
-    public void StartDialogue()
+    }   
+
+    public void StartDialogue(TextAsset textAsset)
     {
         if (ta!=null)
-        {
-            xmlDialogue = null;
-            xmlDialogue = ReadXmlDialogue.Load(ta);
-            currentNode = 0;            
+        {            
+            CleanDialogue();
+            ta = textAsset;
+            xmlDialogue = ReadXmlDialogue.Load(ta);                      
             WriteText();
         }                   
     }        
@@ -52,7 +45,6 @@ public class InstantiateDialogue : MonoBehaviour
         }
     }
 
-    #endregion
     private void OnAnswerClicked(int numberOfButton)
     {
         StartCoroutine(AnswerClicked(numberOfButton));
@@ -60,36 +52,32 @@ public class InstantiateDialogue : MonoBehaviour
 
     private IEnumerator AnswerClicked(int numberOfButton)
     {
-        if (xmlDialogue.nodes[currentNode].answers[numberOfButton].endRestart == "true")
+        var answer = xmlDialogue.nodes[currentNode].answers[numberOfButton];
+
+        if (answer == null || answer.endRestart == "true")
         {
-            // метод закрытия окна
-            finish?.Invoke();
-            CloseDialogue();
-            yield return new WaitForSeconds(2f);
-        }
-        else if (xmlDialogue.nodes[currentNode].answers[numberOfButton].endNextDialogue == "true")
-        {
-            // метод закрытия окна переход на следющий диалог
-            finishNextDialogue?.Invoke();
-            CloseDialogue();
-            yield return new WaitForSeconds(2f);
+            Finish?.Invoke();
+            CleanDialogue();
+
+            if (answer.nextDialogue != null)
+                NextDialogue?.Invoke(answer.nextDialogue.nextNumberDialogue);
+            else NextDialogue?.Invoke(-1);
         }
         else
         {
-            currentNode = xmlDialogue.nodes[currentNode].answers[numberOfButton].nextNode;
+            currentNode = answer.nextNode;
             WriteText();
         }
+
+        yield return new WaitForSeconds(1f);
     }  
 
-    //окончание диалога
-    public void CloseDialogue()
+    private void CleanDialogue()
     {
         if (xmlDialogue != null)
-        {
             xmlDialogue = null;
-        }
-        //deleteDialogue();
-        currentNode = 0; // Начинаем с первого узла
+
+        currentNode = 0;
     }
 
     private void OnDisable()
