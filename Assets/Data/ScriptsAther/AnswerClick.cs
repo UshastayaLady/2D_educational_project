@@ -6,7 +6,7 @@ public class AnswerClick : MonoBehaviour
 {
     [SerializeField] private Button thisButton;
     private int idAnswer;
-    public event Action<int> answerClick;
+    public static event Action<int> answerClick;
 
     private void Awake()
     {
@@ -16,7 +16,6 @@ public class AnswerClick : MonoBehaviour
 
     private void OnAnswerClick()
     {
-        Debug.Log("+++");
         answerClick?.Invoke(idAnswer);
     }
 

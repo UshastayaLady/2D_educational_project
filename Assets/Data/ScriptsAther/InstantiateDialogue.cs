@@ -10,9 +10,6 @@ public class InstantiateDialogue : MonoBehaviour
 
     [SerializeField] private ReadXmlDialogue xmlDialogue;
 
-    //[SerializeField] private GameObject Window;        
-    //[SerializeField] private Text nodeText;
-
     public event Action<string> NpsText;
     public event Action<string, int> Answer;
     public event Action finish;
@@ -21,7 +18,6 @@ public class InstantiateDialogue : MonoBehaviour
     [SerializeField] private TextAsset ta;
     private int currentNode = 0;
 
-    [SerializeField] private AnswerClick answerClick;
     #endregion
 
     #region 
@@ -33,7 +29,7 @@ public class InstantiateDialogue : MonoBehaviour
     }
     private void OnEnable()
     {
-        answerClick.answerClick += OnAnswerClicked;
+        AnswerClick.answerClick += OnAnswerClicked;
     }
     public void StartDialogue()
     {
@@ -98,7 +94,7 @@ public class InstantiateDialogue : MonoBehaviour
 
     private void OnDisable()
     {
-        answerClick.answerClick -= OnAnswerClicked;
+        AnswerClick.answerClick -= OnAnswerClicked;
     }
 
 }

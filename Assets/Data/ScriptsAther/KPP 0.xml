@@ -23,13 +23,22 @@
 			праздник, гости с ночевой.
 		</npcText>
 		<answers>
-			<answer toNode = "1">
+			<answer toNode = "0">
 				<text>
 					safd
 				</text>							
 			</answer>
+			<answer toNode = "1">
+				<text>
+					sdsdsadsadsadsadsadsadsadsads
+					sadsadsadsadsadsad
+					sadsadsad
+					asdsadsadsadsad
+				</text>
+			</answer>
 		</answers>
 	</node>
+	
 	
 	<node>
 		<npcText> Назовите свою Имя и Фамилию и предоставьте документы.</npcText>

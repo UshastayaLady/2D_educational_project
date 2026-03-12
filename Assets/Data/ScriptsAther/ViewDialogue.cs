@@ -7,12 +7,10 @@ public class ViewDialogue : MonoBehaviour
 {
     [SerializeField] private Text nodeText;
     [SerializeField] private RectTransform textContainer;
-
     [SerializeField] private ScrollRect textScrollRect;
+
     [SerializeField] private RectTransform panelAnswer;
 
-   
-    [SerializeField] private AnswerClick answerClick;
 
     private InstantiateDialogue instantiateDialogue;
     private PoolObject poolObject;
@@ -27,7 +25,7 @@ public class ViewDialogue : MonoBehaviour
     {
         instantiateDialogue.NpsText += WriteText;        
         instantiateDialogue.Answer += WriteAnswer;
-        answerClick.answerClick += DelAnswer;
+        AnswerClick.answerClick += DelAnswer;
     }
     private void WriteText(string npsText)
     {
@@ -46,7 +44,11 @@ public class ViewDialogue : MonoBehaviour
         FindPool buttonAnswer = poolObject.GetObgectInPool();
         try
         {
-            buttonAnswer.GetComponentInChildren<Text>().text = answer;
+            Text answerText = buttonAnswer.GetComponentInChildren<Text>();
+            answerText.text = answer;
+            float textHeight = answerText.preferredHeight;
+            RectTransform buttonRect = buttonAnswer.GetComponent<RectTransform>();
+            buttonRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, textHeight + 32f);
         }
         catch (NullReferenceException ex)
         {
@@ -87,6 +89,6 @@ public class ViewDialogue : MonoBehaviour
     {
         instantiateDialogue.NpsText -= WriteText;
         instantiateDialogue.Answer -= WriteAnswer;
-        answerClick.answerClick -= DelAnswer;
+        AnswerClick.answerClick -= DelAnswer;
     }
 }
