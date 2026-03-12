@@ -1,6 +1,6 @@
 <xmlDialogue>
 	<node>
-		<npctext>
+		<npcText>
 			Отключили электричество,
 			в комнате зажгли свечу.
 			Там, в окне, его величество
@@ -21,9 +21,9 @@
 			непонятно для чего:
 			только вечное вращение,
 			праздник, гости с ночевой.
-		</npctext>
+		</npcText>
 		<answers>
-			<answer tonode = "1">
+			<answer toNode = "1">
 				<text>
 					safd
 				</text>							
@@ -32,9 +32,9 @@
 	</node>
 	
 	<node>
-		<npctext> Назовите свою Имя и Фамилию и предоставьте документы.</npctext>
+		<npcText> Назовите свою Имя и Фамилию и предоставьте документы.</npcText>
 		<answers>
-			<answer tonode = "0">
+			<answer toNode = "0">
 				<text> Меня зовут ... </text>
 				<endNextDialogue>true</endNextDialogue>				
 			</answer>

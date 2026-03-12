@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\viewdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\scriptsather\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadXmlDialogue.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:53:02.872Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,7 +49,7 @@
               "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
               "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\AnswerClick.cs",
               "RelativeToolTip": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T06:48:51.283Z",
               "EditorCaption": ""
@@ -45,20 +62,20 @@
               "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
               "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
               "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T05:45:34.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InstantiateDialogue.cs",
               "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
               "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
               "RelativeToolTip": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAcwHYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T17:56:00.028Z",
               "EditorCaption": ""

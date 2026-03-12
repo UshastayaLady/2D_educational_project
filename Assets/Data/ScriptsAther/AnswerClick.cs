@@ -16,6 +16,7 @@ public class AnswerClick : MonoBehaviour
 
     private void OnAnswerClick()
     {
+        Debug.Log("+++");
         answerClick?.Invoke(idAnswer);
     }
 

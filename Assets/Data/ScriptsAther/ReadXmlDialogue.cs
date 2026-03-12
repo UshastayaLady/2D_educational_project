@@ -35,10 +35,11 @@ public class ReadXmlDialogue
 [System.Serializable]
 public class Node
 {
-    [XmlElement("npctext")]
+    [XmlElement("npcText")]
     public string npcText;
 
     [XmlArray("answers")]
+    [XmlArrayItem("answer")]
     public Answer[] answers; 
 }
 

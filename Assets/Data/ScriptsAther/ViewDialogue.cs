@@ -31,7 +31,14 @@ public class ViewDialogue : MonoBehaviour
     }
     private void WriteText(string npsText)
     {
-        nodeText.text = npsText;
+        nodeText.text = npsText;       
+
+        float textHeight = nodeText.preferredHeight;
+        textContainer.sizeDelta = new Vector2(textContainer.sizeDelta.x, textHeight + 20f);
+        Canvas.ForceUpdateCanvases();
+
+        // прокрутить вверх
+        textScrollRect.verticalNormalizedPosition = 1f;
     }
 
     private void WriteAnswer(string answer, int idButton)
@@ -49,13 +56,13 @@ public class ViewDialogue : MonoBehaviour
         try
         {
             buttonAnswer.GetComponent<AnswerClick>().SetIdAnswer(idButton);
-            //buttonAnswer.transform.SetParent(panelAnswer, false);
+            buttonAnswer.transform.SetParent(panelAnswer, false);
             buttonAnswer.gameObject.SetActive(true);
         }
         catch (NullReferenceException ex)
         {
             Debug.LogError("NullReferenceException в buttonAnswer отсутствует компонент AnswerClick: " + ex.Message);
-        }  
+        }
     }
 
     private void DelAnswer(int idButton)
