@@ -11,11 +11,6 @@ public class AttackPlayer : MonoBehaviour, IGiveDamage
     private RaycastHit2D raycastHit2D;
     private bool canAttack = true;
 
-    private void Update()
-    {
-        RayDrow();
-    }
-
     private void RayDrow()
     {
         Vector2 player = new Vector2(startPoinRay.transform.position.x, startPoinRay.transform.position.y);

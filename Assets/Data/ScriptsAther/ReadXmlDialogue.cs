@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Xml.Serialization;     //запись и чтение xml файла
 using System.IO;
 
-[XmlRoot("dialogue")]
+[XmlRoot("xmlDialogue")]
 public class ReadXmlDialogue
 {
     [XmlElement("text")]
@@ -48,7 +48,7 @@ public class Answer
     public int nextNode;
     [XmlElement("text")]
     public string text;
-    [XmlElement("endNext")] //  онец диалога и переход на следующий
+    [XmlElement("endNextDialogue")] //  онец диалога и переход на следующий
     public string endNextDialogue;
     [XmlElement("endRestart")] //  онец диалога без перехода на следующий, т.е. данный диалог будет проигран еще раз
     public string endRestart;

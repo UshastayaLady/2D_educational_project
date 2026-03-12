@@ -27,7 +27,6 @@ public class DialogueManager : MonoBehaviour
     //Closing the dialog box
    public void EndDialogue()
     {
-        InstantiateDialogue.instance.CloseDialogue();
         boxAnim.SetBool("boxOpen", false);
         oknoDia.SetActive(false);
         dialogueClosed = true;

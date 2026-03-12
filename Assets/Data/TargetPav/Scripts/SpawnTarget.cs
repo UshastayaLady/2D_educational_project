@@ -1,10 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
-using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 [RequireComponent(typeof(PoolObject))]
 public class SpawnTarget : MonoBehaviour
@@ -54,8 +51,6 @@ public class SpawnTarget : MonoBehaviour
 
     private void OnTargetDestroyed(Vector2 point)
     {
-        Debug.Log($"Target destroyed at {point}, respawning in {timeReSpawn} seconds");
-
         if (activeTargets.ContainsKey(point))
         {
             activeTargets.Remove(point);

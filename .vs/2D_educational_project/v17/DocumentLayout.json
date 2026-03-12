@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\targetpav\\scripts\\attackplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\attackplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\assets\\data\\scriptsather\\viewdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\viewdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\targetpav\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\scriptsather\\kpp 0.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\kpp 0.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\targetpav\\scripts\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\targetpav\\scripts\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\assets\\data\\scriptsather\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\pivpav\\scripts\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\pivpav\\scripts\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\pivpav\\scripts\\findpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\pivpav\\scripts\\findpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\2d_educational_project\\assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02973B31-8DAF-2FF9-51CF-7510B1D12BBB}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AttackPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
-              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
-              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\AttackPlayer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T22:03:05.712Z",
+              "DocumentIndex": 1,
+              "Title": "KPP 0.xml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\KPP 0.xml",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\KPP 0.xml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\KPP 0.xml",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\KPP 0.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-12T14:01:50.742Z",
               "EditorCaption": ""
             },
             {
@@ -53,48 +57,61 @@
               "RelativeDocumentMoniker": "Assets\\Data\\PivPav\\Scripts\\PoolObject.cs",
               "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\PivPav\\Scripts\\PoolObject.cs",
               "RelativeToolTip": "Assets\\Data\\PivPav\\Scripts\\PoolObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T21:29:06.988Z",
+              "WhenOpened": "2026-03-12T13:50:34.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:13:33.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FindPool.cs",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\PivPav\\Scripts\\FindPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\PivPav\\Scripts\\FindPool.cs",
-              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\PivPav\\Scripts\\FindPool.cs",
-              "RelativeToolTip": "Assets\\Data\\PivPav\\Scripts\\FindPool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "ReadXmlDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowDYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T21:24:22.341Z",
+              "WhenOpened": "2026-03-12T07:35:43.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpawnTarget.cs",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\SpawnTarget.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\SpawnTarget.cs",
-              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\SpawnTarget.cs",
-              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\SpawnTarget.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEYAAAAiAAAA",
+              "Title": "InstantiateDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwC8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T21:14:59.146Z",
+              "WhenOpened": "2026-03-12T07:35:31.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Target.cs",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\Target.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\TargetPav\\Scripts\\Target.cs",
-              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\TargetPav\\Scripts\\Target.cs",
-              "RelativeToolTip": "Assets\\Data\\TargetPav\\Scripts\\Target.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "AnswerClick.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\AnswerClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\2D_educational_project\\Assets\\Data\\ScriptsAther\\AnswerClick.cs",
+              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T21:12:33.591Z",
+              "WhenOpened": "2026-03-12T07:35:27.523Z",
               "EditorCaption": ""
             }
           ]
