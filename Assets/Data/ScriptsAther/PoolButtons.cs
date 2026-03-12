@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolObject : MonoBehaviour
+public class PoolButtons : MonoBehaviour
 {
     [SerializeField] private Transform container;
     [SerializeField] private FindPool sample;
@@ -24,6 +24,7 @@ public class PoolObject : MonoBehaviour
 
     private void AddPoolObject()
     {
+        //AddPoolObject(Instantiate(sample, new Vector2(0f, 0f), Quaternion.identity));
         FindPool newObject = Instantiate(sample);
         newObject.PutInPool += PutObgectInPool;
         AddPoolObject(newObject);

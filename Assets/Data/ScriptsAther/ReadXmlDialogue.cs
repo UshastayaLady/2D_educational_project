@@ -1,12 +1,11 @@
-using System.IO;
-using System.Xml.Serialization;
 using UnityEngine;
-
+using System.Xml.Serialization;     //запись и чтение xml файла
+using System.IO;
 
 [XmlRoot("dialogue")]
-public class ReadXmlDialogue : MonoBehaviour
+public class ReadXmlDialogue
 {
-    //[XmlElement("text")]
+    [XmlElement("text")]
     public string name;
 
     [XmlElement("node")]
@@ -16,7 +15,7 @@ public class ReadXmlDialogue : MonoBehaviour
     {
         XmlSerializer serializer = new XmlSerializer(typeof(ReadXmlDialogue));
         StringReader reader = new StringReader(_xml.text);
-        ReadXmlDialogue dial = serializer.Deserialize(reader) as ReadXmlDialogue;
+        ReadXmlDialogue dial = serializer.Deserialize(reader) as ReadXmlDialogue;        
         return dial;
     }
 
@@ -28,66 +27,29 @@ public class ReadXmlDialogue : MonoBehaviour
             {
                 nodes[i].answers[j].text = "";
             }
-            nodes[i].Npctext = "";
+            nodes[i].npcText = "";
         }
     }
 }
+
 [System.Serializable]
 public class Node
 {
     [XmlElement("npctext")]
-    public string Npctext;
+    public string npcText;
 
     [XmlArray("answers")]
-    [XmlArrayItem("answer")]
-    public Answer[] answers;
-
+    public Answer[] answers; 
 }
 
 public class Answer
 {
-    [XmlAttribute("tonode")]
+    [XmlAttribute("toNode")]
     public int nextNode;
     [XmlElement("text")]
     public string text;
-    [XmlElement("dialend")] // Конец диалога и переход на следующий
-    public string end;
-
-    [XmlArray("quests")]
-    [XmlArrayItem("quest")]
-    public Quests[] quests;
-
-    [XmlElement("after")] // Конец диалога без перехода на следующий, т.е. данный диалог будет проигран еще раз
-    public string after;
-}
-
-public class Quests
-{
-    [XmlElement("textQuest")] // Текст для создания квеста
-    public string textQuest;
-    [XmlElement("questDone")] // Текст квеста для проверки, что он выполнен (рядом статус "выполнен")
-    public string questDone;
-    [XmlElement("questEndAndDelete")] // Текст квеста, который сдается во время диалога
-    public string questEndAndDelete;
-    [XmlElement("questChangeStatus")] // Текст квеста, для которого меняется статус
-    public string questChangeStatus;
-    [XmlElement("textNewStatus")] // Для смены статуса
-    public string textNewStatus;
-    [XmlElement("gameObjectSetActiv")] // Для включения или выключения объекта
-    public string gameObjectSetActiv;
-
-    [XmlArray("items")]
-    [XmlArrayItem("item")]
-    public Items[] items;
-
-    [XmlElement("motion")] // Опыт
-    public string motion;
-}
-
-public class Items
-{
-    [XmlElement("gameObjectTake")] // Какие вещи должны быть у игрока для сдачи квеста
-    public string gameObjectTake;
-    [XmlElement("gameObjectTakeCount")] // Количество вещей
-    public int gameObjectTakeCount;
+    [XmlElement("endNext")] // Конец диалога и переход на следующий
+    public string endNextDialogue;
+    [XmlElement("endRestart")] // Конец диалога без перехода на следующий, т.е. данный диалог будет проигран еще раз
+    public string endRestart;
 }
