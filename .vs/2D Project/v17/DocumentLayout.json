@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "F:\\Top\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\scriptsather\\kpp 0.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\kpp 0.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\gameclicker2\\scripts\\countervew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\gameclicker2\\scripts\\countervew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\gameclicker2\\scripts\\counter2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\gameclicker2\\scripts\\counter2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\scriptsather\\viewdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\viewdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\scriptsather\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|F:\\Top\\2D Project\\assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\scriptsather\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|f:\\top\\2d project\\assets\\data\\gameclicker2\\scripts\\clicker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\gameclicker2\\scripts\\clicker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KPP 0.xml",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\KPP 0.xml",
-              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\KPP 0.xml",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\KPP 0.xml",
-              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\KPP 0.xml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-12T17:15:51.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReadXmlDialogue.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
-              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ReadXmlDialogue.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAAaAAAAAAAAAA==",
+              "Title": "counterVew.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\counterVew.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\GameClicker2\\Scripts\\counterVew.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\counterVew.cs",
+              "RelativeToolTip": "Assets\\Data\\GameClicker2\\Scripts\\counterVew.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T15:53:02.872Z",
+              "WhenOpened": "2026-03-19T06:56:47.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnswerClick.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\AnswerClick.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\AnswerClick.cs",
-              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\AnswerClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Title": "Counter2.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\Counter2.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\GameClicker2\\Scripts\\Counter2.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\Counter2.cs",
+              "RelativeToolTip": "Assets\\Data\\GameClicker2\\Scripts\\Counter2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:48:51.283Z",
+              "WhenOpened": "2026-03-19T06:46:45.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ViewDialogue.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
-              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\ViewDialogue.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAABdAAAAAAAAAA==",
+              "Title": "Clicker2.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\Clicker2.cs",
+              "RelativeDocumentMoniker": "Assets\\Data\\GameClicker2\\Scripts\\Clicker2.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\GameClicker2\\Scripts\\Clicker2.cs",
+              "RelativeToolTip": "Assets\\Data\\GameClicker2\\Scripts\\Clicker2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T05:45:34.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InstantiateDialogue.cs",
-              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
-              "RelativeDocumentMoniker": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
-              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
-              "RelativeToolTip": "Assets\\Data\\ScriptsAther\\InstantiateDialogue.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwBIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:56:00.028Z",
+              "WhenOpened": "2026-03-19T06:34:53.24Z",
               "EditorCaption": ""
             }
           ]
